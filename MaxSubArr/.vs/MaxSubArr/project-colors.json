@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e095f726-57ff-4631-9c36-b1ad5dcdd11c": {
+      "ProjectGuid": "e095f726-57ff-4631-9c36-b1ad5dcdd11c",
+      "DisplayName": "MaxSubArr",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
