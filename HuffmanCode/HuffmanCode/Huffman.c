@@ -8,7 +8,6 @@ typedef struct _node
 	struct _node* right;
 }Node;
 
-// git test
 typedef struct _heap
 {
 	int numOfData;
