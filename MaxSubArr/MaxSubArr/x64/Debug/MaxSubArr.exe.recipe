@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\AlgorithmHW\MaxSubArr\x64\Debug\MaxSubArr.exe</FullPath>
+      <FullPath>C:\Algorithm\MaxSubArr\x64\Debug\MaxSubArr.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

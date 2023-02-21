@@ -19,7 +19,7 @@ def FindMaxCrossingSubarray(A, low, mid, high):
     left_sum = float("-inf")
     right_sum = float("-inf")
     sum = 0
-    for i in range(mid, low - 1, -1):
+    for i in range(mid, low - 1, -1): #mid 부터 low까지 downto
         sum = sum + A[i]
         if sum > left_sum:
             left_sum = sum
