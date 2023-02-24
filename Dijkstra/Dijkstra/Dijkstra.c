@@ -79,7 +79,7 @@ void Dijkstra(int Graph[MAX][MAX], int n, int start)
                     mindistance = distance[i];
                     next = i;
                 }
-        }
+        }//ExtractMin
         visited[next] = 1;
         //relaxÇÔ¼ö
 
@@ -115,13 +115,3 @@ void Initialize(int* Graph[], int distance[], int visited[], int len)
     distance[0] = 0;
     visited[0] = 0;
 }
-//void Relax(int* Graph[],int i, int mindistance,int next, int distance[], int visited[])
-//{
-//
-//    if (!visited[i])
-//        if (mindistance + Graph[next][i] < distance[i])
-//        {
-//            distance[i] = mindistance + Graph[next][i];
-//        }
-//}
-
